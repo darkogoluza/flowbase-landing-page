@@ -6,6 +6,7 @@ import image1 from "./assets/content_image.png";
 import image2 from "./assets/content_image2.png";
 import Callout from "./components/Callout";
 import Quote from "./components/Quote";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
       <Callout />
       <Quote />
+      <Footer />
     </>
   );
 }
