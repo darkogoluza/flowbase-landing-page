@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   background-color: black;
-  margin-bottom: 5rem;
   padding-bottom: 1.375rem;
 `;
 export const TextContainer = styled.div`
