@@ -38,6 +38,12 @@ export const Stat = styled.div`
   justify-content: center;
   height: 3.75rem;
   background-color: white;
+
+  border-right: 1px solid #e4e4e4;
+
+  &:last-child {
+    border-right: 0px solid #e4e4e4;
+  }
 `;
 export const StatIcon = styled.img`
   width: 1rem;

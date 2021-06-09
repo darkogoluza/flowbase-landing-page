@@ -11,9 +11,8 @@ import {
 import bedIcon from "../../assets/bed.svg";
 import showerIcon from "../../assets/shower.svg";
 import sizeIcon from "../../assets/size.svg";
-import heroImage from "../../assets/house_example_1.png";
 
-const HouseCard = () => {
+const HouseCard = ({ heroImage }) => {
   return (
     <>
       <Container>
