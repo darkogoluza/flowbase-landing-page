@@ -20,7 +20,7 @@ const ContentCard = ({ isLeft, title, description, img_src }) => {
           style={{
             flexDirection: `${isLeft ? "row" : "row-reverse"}`,
             justifyContent: `${isLeft ? "start" : "end"}`,
-            alignItems: `${isLeft ? "center" : "end"}`,
+            alignItems: `${isLeft ? "center" : "flex-end"}`,
             bottom: `${isLeft ? "-175px" : "75px"}`,
           }}
         >

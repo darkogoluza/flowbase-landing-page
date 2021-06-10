@@ -6,6 +6,7 @@ import Features from "../components/Features";
 import Footer from "../components/Footer";
 import PropertyContent from "../components/PropertyContent";
 import PropertyHeader from "../components/PropertyHeader";
+import PropertyHouse from "../components/PropertyHouse";
 import SimularListings from "../components/SimularLisrings";
 import { MainContent } from "./propertyPageElements";
 
@@ -15,6 +16,7 @@ const PropertyPage = () => {
       <PropertyHeader />
       <PropertyContent>
         <MainContent>
+          <PropertyHouse />
           <Details />
           <Description />
           <Features />

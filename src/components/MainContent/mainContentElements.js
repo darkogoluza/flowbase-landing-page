@@ -5,6 +5,7 @@ export const Container = styled.section`
 
   padding: 0 11.5625rem;
   padding-top: 13.5rem;
+  padding-bottom: 24.5625rem;
 `;
 
 export const HousesList = styled.ul`
