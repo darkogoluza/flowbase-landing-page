@@ -1,10 +1,12 @@
 import React from "react";
+import ContactForm from "../components/ContactForm";
 import Description from "../components/Description";
 import Details from "../components/Details";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
 import PropertyContent from "../components/PropertyContent";
 import PropertyHeader from "../components/PropertyHeader";
+import SimularListings from "../components/SimularLisrings";
 import { MainContent } from "./propertyPageElements";
 
 const PropertyPage = () => {
@@ -17,8 +19,11 @@ const PropertyPage = () => {
           <Description />
           <Features />
         </MainContent>
-        <div>Kurac</div>
+        <div>
+          <ContactForm />
+        </div>
       </PropertyContent>
+      <SimularListings />
       <Footer />
     </>
   );
